@@ -1,5 +1,5 @@
 {
-  "pages": [
+  "blogs": [
     {
       "id": 1,
       "title": "HTML",
@@ -11,6 +11,18 @@
       "title": "CSS",
       "author": "Babitha",
       "content": "CSS is used for markup"
+    },
+    {
+      "title": "JS",
+      "content": "this is js",
+      "author": "babitha",
+      "id": 3
+    },
+    {
+      "title": "mongo",
+      "content": "this is mongo",
+      "author": "bab",
+      "id": 4
     }
   ]
 }

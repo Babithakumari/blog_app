@@ -1,11 +1,10 @@
-import NavMenu from "./NavMenu";
-import NavHeader from "./NavHeader";
+import NavLinks from "./NavLinks";
 
 export default function Navbar() {
   return (
     <nav>
-      <NavHeader name="Blog-app"></NavHeader>
-      <NavMenu></NavMenu>
+      <h1>Blog App</h1>
+      <NavLinks></NavLinks>
     </nav>
   );
 }

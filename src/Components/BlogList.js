@@ -1,11 +1,12 @@
-import BlogPage from "./BlogPage";
+import BlogPreview from "./BlogPreview";
 
 const BlogList = ({ blogs }) => {
   return (
     <div>
-      {blogs.map((blog) => (
-        <BlogPage
+      {blogs && blogs.map((blog) => (
+        <BlogPreview
           key={blog.id}
+          id={blog.id}
           title={blog.title}
           author={blog.author}
           content={blog.content}

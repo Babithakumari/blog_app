@@ -1,4 +1,6 @@
 import BlogList from "./BlogList";
+import useFetch from "./useFetch"
+
 const pages = [
   {
     id: 1,
@@ -13,10 +15,16 @@ const pages = [
     content: "CSS used for styling"
   }
 ];
+
 const Home = () => {
+
+  const {data,isPending} = useFetch("http://localhost:8000/blogs")
+
+  
   return (
     <>
-      <BlogList blogs={pages} />
+      {isPending && <p>Loading....</p>}
+      {data && <BlogList blogs={data} />}
     </>
   );
 };
