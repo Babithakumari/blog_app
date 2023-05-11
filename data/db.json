@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "title": "HTML",
+      "author": "Babitha",
+      "content": "HTML is used for markup"
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "author": "Babitha",
+      "content": "CSS is used for markup"
+    }
+  ]
+}
