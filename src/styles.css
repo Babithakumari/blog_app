@@ -2,4 +2,37 @@
   font-family: sans-serif;
   text-align: center;
 }
+*{
+  margin:0;
+  padding:0
 
+}
+
+nav{
+  display:flex;
+  justify-content:space-around;
+  background-color: #16416e  ;
+  color:#ecf4f3  ;
+  align-items:center;
+  height:3rem;
+
+}
+
+#nav-menu{
+  list-style-type: none;
+  display:flex;
+  align-items:center;
+  height:3rem;
+  background-color: #2d89f8   ;
+  
+
+}
+#nav-menu li{
+  padding:3rem;
+  
+  align-items:center;
+}
+#nav-menu a{
+  text-decoration: none;
+  color:#ecf4f3 
+}
