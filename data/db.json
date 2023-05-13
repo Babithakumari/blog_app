@@ -1,12 +1,6 @@
 {
   "blogs": [
     {
-      "title": "mongo",
-      "content": "this is mongo",
-      "author": "bab",
-      "id": 4
-    },
-    {
       "title": "DJango",
       "content": "this is blog",
       "author": "bab",
