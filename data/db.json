@@ -1,28 +1,28 @@
 {
   "blogs": [
     {
-      "id": 1,
-      "title": "HTML",
-      "author": "Babitha",
-      "content": "HTML is used for markup"
-    },
-    {
-      "id": 2,
-      "title": "CSS",
-      "author": "Babitha",
-      "content": "CSS is used for markup"
-    },
-    {
-      "title": "JS",
-      "content": "this is js",
-      "author": "babitha",
-      "id": 3
-    },
-    {
       "title": "mongo",
       "content": "this is mongo",
       "author": "bab",
       "id": 4
+    },
+    {
+      "title": "DJango",
+      "content": "this is blog",
+      "author": "bab",
+      "id": 5
+    },
+    {
+      "title": "react",
+      "content": "this is react",
+      "author": "bab",
+      "id": 6
+    },
+    {
+      "title": "Redux",
+      "content": "this is redux",
+      "author": "bab",
+      "id": 7
     }
   ]
 }

@@ -1,7 +1,9 @@
 import {Link} from "react-router-dom"
-import useFetch from "./useFetch"
+import {useState} from "react"
 
 const BlogPreview = ({ id,title, author, content }) => {
+
+  
   return (
     <>
       <Link to={`/blogs/${id}`}>{title}</Link>
