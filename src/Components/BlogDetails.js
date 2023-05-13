@@ -17,14 +17,15 @@ const BlogDetails = () =>{
       }
 
     return(
-        <div>
+        <div class="container">
             {isPending && <p>Loading</p>}
             {
                 blog && (
                 <div>
-                <h1>{blog.title}</h1>
+                <h1 id="title">{blog.title}</h1>
+                <hr></hr>
                 <p>{blog.content}</p>
-                <button onClick={handleDelete}>delete</button>
+                <button onClick={handleDelete}>Delete</button>
                 </div>
                 )
             }

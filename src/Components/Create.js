@@ -29,9 +29,9 @@ const Create = () =>
 
     return(
         <form>
-            <input type="text" value={title} onChange={(e)=> setTitle(e.target.value)} placeholder="Enter blog Title"/><br></br>
+            <input type="text" value={title} onChange={(e)=> setTitle(e.target.value)} placeholder="Enter blog Title" width="100"/><br></br>
             <input type="text" value={author} onChange={(e)=> setAuthor(e.target.value)} placeholder="Enter author"/><br></br>
-            <textarea value={content} onChange={(e)=> setContent(e.target.value)} placeholder="Enter blog content"></textarea><br></br>
+            <textarea value={content} onChange={(e)=> setContent(e.target.value)} placeholder="Enter blog content" rows="10" cols="50"></textarea><br></br>
             {!isPending && <button type="submit" onClick = {handleSubmit}>Add Blog</button>}
             {isPending && <button>Adding Blog...</button>}
         </form>
